@@ -1,6 +1,6 @@
 # GreetingApp
 
-Test app for studying architectural patterns.
+Test app for studying architectural patterns. 
 
   * MVC
   * MVP
