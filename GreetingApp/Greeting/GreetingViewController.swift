@@ -7,7 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol GreetingViewInputProtocol {
+    func setGreeting(_ greeting: String)
+}
+
+protocol GreetingViewOutputProtocol {
+    init(view: GreetingViewInputProtocol)
+    func didTapShowGreetingButton()
+}
+
+class GreetingViewController: UIViewController {
 
     @IBOutlet weak var greetingLabel: UILabel!
     
@@ -25,3 +34,9 @@ class ViewController: UIViewController {
     
 }
 
+// MARK: - GreetingViewInputProtocol
+extension GreetingViewController: GreetingViewInputProtocol {
+    func setGreeting(_ greeting: String) {
+        greetingLabel.text = greeting
+    }
+}
