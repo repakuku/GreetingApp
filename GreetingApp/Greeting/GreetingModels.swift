@@ -23,11 +23,12 @@ enum Greeting {
         }
         
         struct Response {
-            
+            let name: String
+            let surname: String
         }
         
         struct ViewModel {
-            
+            let greeting: String
         }
     }
 }

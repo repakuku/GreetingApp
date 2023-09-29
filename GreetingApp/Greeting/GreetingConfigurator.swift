@@ -10,7 +10,7 @@
 //  see http://clean-swift.com
 //
 
-class GreetingWorker {
+final class GreetingConfigurator {
     func doSomeWork() {
         
     }
