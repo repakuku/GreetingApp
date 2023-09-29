@@ -1,8 +1,9 @@
 # GreetingApp
 
-Test app for studying architectural patterns. 
+The app for studying architectural patterns. 
 
   * MVC
   * MVP
   * MVVM
   * VIPER
+  * CleanSwift
