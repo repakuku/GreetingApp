@@ -20,6 +20,6 @@ class GreetingPresenter: GreetingPresentationLogic {
     
     func presentSomething(response: Greeting.ShowGreeting.Response) {
         let viewModel = Greeting.ShowGreeting.ViewModel()
-        viewController?.displaySomething(viewModel: viewModel)
+        viewController?.displayGreeting(viewModel: viewModel)
     }
 }

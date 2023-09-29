@@ -13,7 +13,7 @@
 import UIKit
 
 protocol GreetingDisplayLogic: AnyObject {
-    func displaySomething(viewModel: Greeting.ShowGreeting.ViewModel)
+    func displayGreeting(viewModel: GreetingViewModel)
 }
 
 class GreetingViewController: UIViewController {
@@ -76,7 +76,7 @@ class GreetingViewController: UIViewController {
 }
 
 extension GreetingViewController: GreetingDisplayLogic {
-    func displaySomething(viewModel: Greeting.ShowGreeting.ViewModel) {
+    func displayGreeting(viewModel: GreetingViewModel) {
         
     }
 }

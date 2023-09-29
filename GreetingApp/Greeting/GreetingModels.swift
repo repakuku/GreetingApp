@@ -10,6 +10,10 @@
 //  see http://clean-swift.com
 //
 
+typealias GreetingRequest = Greeting.ShowGreeting.Request
+typealias GreetingResponse = Greeting.ShowGreeting.Response
+typealias GreetingViewModel = Greeting.ShowGreeting.ViewModel
+
 enum Greeting {
  
     // MARK: Use cases
