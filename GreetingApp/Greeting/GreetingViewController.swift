@@ -25,7 +25,7 @@ final class GreetingViewController: UIViewController {
     // MARK: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        GreetingConfigurator.shared.configure(with: self)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
